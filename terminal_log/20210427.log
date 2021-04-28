@@ -1,0 +1,230 @@
+sudo apt autoremove
+$SHELL
+echo $SHELL
+echo "hello world"
+echo $HOST
+echo $USER
+echo ´date´
+echo `date`
+echo "worl\
+is mine"
+exit
+pwd
+cat ect\os-release
+ect\os-release
+ls
+cd
+cd books
+cd ..
+cd books
+cd -
+cd books
+cd -
+cd ~
+ll
+printenv
+ls
+ll
+ls - lrt
+cd ~
+cd
+cd data
+cd shell
+cat Text_example.txt
+cat - n
+cat -n Text_example.txt
+pwd
+cat ..\\
+
+cat ~/pp.txt
+cat ../../pp.txt
+cat ../../
+echo $PWD
+echo \$PWD
+CD
+cd
+cd ~
+ls -a
+man ls
+ls -1
+man ls
+ls -l
+mkdir one
+mkdir this and that
+mkdir one/two/three
+ls
+ls -1
+mkdir -p one/two/three
+ls one
+ls two
+rm -rf this
+ls -1
+pwd
+cd
+first_dir
+mkdir first_dir
+touch text_file.txt
+ls -1
+rm -rf text_file.txt
+ls -1
+cd ./
+cd ./first_dir
+touch text_file.txt
+ls -1
+../
+cd../
+cd ~
+cat ~/.history > 20210422.log
+cat 20210422.log
+exit
+history
+cd
+ls
+cd ./first_dir
+mkdir sub1
+mkdir sub2
+mkdir text_file
+cp -i text_file.txt sub1
+mv -i text_file.txt.2 sub2 
+mv -i text_file.txt sub2 mv -i text_file.txt.2
+mv -i text_file.txt text_file.txt.2
+man mv
+mv -f text_file.txt.2 sub2
+mv sub1 mkdir sub3
+cp -r sub1 mkdir sub3
+mkdir sub3
+cp -r sub1 sub3
+mv -f sub2/text_file.txt.2 sub2/text_file.txt.backup
+man mv
+ls
+mv sub2/text_file.txt.backup first_dir .text_file.txt.backup
+cp /sub2
+pwd
+cd ./sub2
+mv -f text_file.txt.backup first_dir 
+mv -f first_dir text_file.txt.backup
+cd ./
+cd ../
+cd sub2
+mv -f text_file.txt.backup ../.text_file.txt.backup
+cd../
+cd ../
+ls
+ls -a
+rm -rf sub2
+ls -alt
+man ls
+ls -alX
+ls -a1
+man cat
+cat ~/.history > 20210423log
+mv -f 20210423log ../
+ls
+exit
+history
+mkdir terminal_log
+mv -f ./20210422.log terminal_log
+mv -f ./20210423log terminal_log
+./terminal_log
+cd ./terminal_log
+ls
+../
+cd../
+cd ../
+cat terminal_log/.history > 20210424.log 
+mv 20210424.log terminal_log
+./terminal_log
+cd ./terminal_log
+rm -rf 20210424.log
+cd ./
+cd ../
+cat ~/.history > 20210424.log
+mv -f ./20210424.log
+mv -f ./20210424.log terminal_log
+exit
+rm -rf first_dir
+mkdir first_dir
+touch first_dir/text_file.txt
+mkdir -p first_dir/sub1/sub2/text_file
+rm -rf sub1
+ls -lrt first_dir
+first_directory
+cd
+/home/dsc/first_dir
+ls -lrt 
+cd first_dir
+rm -rf sub1
+mkdir sub1
+mkdir sub2
+mkdir text_file
+cp text_file.txt sub1
+mv text_file.txt sub2/text_file.txt.2
+cp -r sub1 sub3
+sub2
+/sub2
+cd ./sub2
+mv text_file.txt.2 text_file.txt.backup
+mv text_file.txt.backup /first_dir/.text_file.txt.backup
+mv ./text_file.txt.backup -/.text_file.txt.backup
+mv ./text_file.txt.backup -.text_file.txt.backup
+mv -f text_file.txt.backup ../.text_file.txt.backup
+../
+cd ../
+ls -a
+ll -a
+cd
+cat ~/.history > ~/terminal_log/20210425.log
+cd terminal_log
+ll -a
+cd
+cat ~/.history > ~/terminal_log/20210425.log
+exit
+cd first_dir
+rm -rf sub2
+cat ~/.history > ~/terminal_log/20210425.log
+cd
+ll -a
+cd
+/teminal_log
+./terminal_log
+cd
+/ter
+cd
+./terminal_log
+./that
+./books
+cd
+ll
+pwd
+cd terminal_log
+ll-a
+ll -a
+exit
+cd ~
+git config --global user.name "Paula Cervilla"
+git config --global user.email "paulacervillagarcia@gmail.com"
+cat .gitconfig
+mkdir git
+cd git
+git clone https://github.com/PaulaCervilla/shell_class.git
+cd shell_class
+ll
+cat README.md
+clear
+touch first_file.txt
+git add first_file.txt
+git diff
+git status
+git commit -m "adding new file"
+gedit first_file.txt
+echo "this is my line"
+echo "this is my line" >> first_file.txt
+cat first_file.txt
+git add first_file.txt
+git commit -m "adding line"
+git push -u origin main
+git status
+git remote -v
+git remote show origin
+history
+cat ~/.history > ~/terminal_log/20210427.log
